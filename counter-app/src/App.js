@@ -17,9 +17,15 @@ function CountCard() {
         <span className="title">Counter App</span>
         <span className="number">0</span>
         <div>
-          <Button />
-          <Button />
-          <Button />
+          <Button color="#222" backgroundColor="#FF605C">
+            Decrease{" "}
+          </Button>
+          <Button color="#222" backgroundColor="#ffd43b">
+            Reset
+          </Button>
+          <Button color="#222" backgroundColor="#00CA4E">
+            Increase
+          </Button>
         </div>
       </div>
       ;
@@ -32,31 +38,28 @@ function Header() {
     <header>
       <div className="total-clicks">
         <span>Total clicks: X</span>
-        <button>
-          <svg
-            className="hhh"
-            xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-          >
-            <rect x="3" y="5" width="2" height="2" />
-            <rect x="3" y="11" width="2" height="2" />
-            <rect x="3" y="17" width="2" height="2" />
-            <rect x="7" y="5" width="14" height="2" />
-            <rect x="7" y="11" width="14" height="2" />
-            <rect x="7" y="17" width="14" height="2" />
-          </svg>
-        </button>
       </div>
     </header>
   );
 }
 
 function Footer() {
-  return <footer>footer</footer>;
+  return <footer>Count 'em all!</footer>;
 }
 
-function Button() {
-  return <button>My button</button>;
+function Button({
+  color = "#fff",
+  backgroundColor = "#38f",
+  children = "Button",
+}) {
+  const buttonStyle = {
+    color,
+    backgroundColor,
+    boxShadow: `6px 6px 5px 2px ${"#212529"}`,
+  };
+  return (
+    <button style={buttonStyle} className="action-button">
+      {children}
+    </button>
+  );
 }

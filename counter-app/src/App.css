@@ -14,8 +14,10 @@ header .total-clicks {
 header .total-clicks button {
   border: solid 0.2rem#343a40;
   background-color: #dee2e6;
-  margin: 0.8rem;
-  border-radius: 0.4rem;
+  padding: 0 1.2rem;
+  margin-left: 2.4rem;
+  font-size: xx-large;
+  border-radius: 2.4rem;
 }
 .container {
   width: 100vw;
@@ -32,17 +34,35 @@ header .total-clicks button {
   width: 48rem;
   height: 32rem;
   border-radius: 4.9rem;
+  box-shadow: 10px 10px 20px 5px #666;
 }
 .count-card .title {
   color: #ffec99;
   font-size: 3.2rem;
   font-weight: 600;
-  margin: 3.2rem;
+  margin-top: 4.2rem;
+  margin-bottom: 2.4rem;
 }
 .count-card .number {
   color: #fff;
   font-size: 3.2rem;
+  margin: 1.6rem;
+  font-weight: 600;
+}
+.action-button {
+  font-weight: 600;
+  font-size: 1.6rem;
+  height: 4.8rem;
+  width: 8rem;
+  border-radius: 1.2rem;
+  margin: 2rem;
+  border: none;
 }
 footer {
   height: 10vh;
+  display: flex;
+  font-size: 2.4rem;
+  justify-content: center;
+  align-items: end;
+  color: #dee2e6;
 }
