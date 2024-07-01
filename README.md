@@ -1,17 +1,9 @@
 # List of projects
-<details>
-  <summary>Counter App</summary>
+## Counter App
 
-<div align="center">
-<table>
-<tbody>
-<td align="center">
-<img width="2000" height="0"><br>
-<h1>The Unique Original</h1><br>
-</td>
-</tbody>
-</table>
-</div>
+ <div align="center">
+    <h1>The Original</h1>
+  </div>
  
   <img
     src="https://github.com/blame-me/downlouder-project-clones/assets/174046539/eb8c1aaa-1112-487f-bf81-ff120e926da0"
@@ -21,12 +13,13 @@
   /> 
 
   <div align="center">
-    <br/><br/><br/><br/><br/>
+    <br/><br/><br/>
     <h1>Pathertic Parody</h1>
   </div>
   
-  # Currently under construction
-</details>
+  ![image](https://github.com/blame-me/downlouder-project-clones/assets/174046539/c484322b-4932-403f-8ad5-156713d7a221)
+
+
 
 
            
