@@ -9,19 +9,12 @@ header .total-clicks {
   justify-content: end;
   font-size: xx-large;
   padding: 1.2rem;
+  color: #212529;
 }
 
-header .total-clicks button {
-  border: solid 0.2rem#343a40;
-  background-color: #dee2e6;
-  padding: 0 1.2rem;
-  margin-left: 2.4rem;
-  font-size: xx-large;
-  border-radius: 2.4rem;
-}
 .container {
-  width: 100vw;
-  height: 80vh;
+  margin-top: 12rem;
+  margin-bottom: 2.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +27,7 @@ header .total-clicks button {
   width: 48rem;
   height: 30rem;
   border-radius: 4.9rem;
-  box-shadow: 10px 10px 20px 5px #666;
+  box-shadow: 10px 10px 10px 1px #212529;
 }
 .count-card .title {
   color: #ffec99;
@@ -42,12 +35,14 @@ header .total-clicks button {
   font-weight: 600;
   margin-top: 4.2rem;
   margin-bottom: 2.4rem;
+  text-shadow: 1px 1px 0 #000;
 }
 .count-card .number {
   color: #fff;
   font-size: 3.2rem;
   margin: 1.6rem;
   font-weight: 600;
+  text-shadow: 1px 1px 0 #000;
 }
 .action-button {
   font-weight: 600;
@@ -58,6 +53,12 @@ header .total-clicks button {
   margin: 2rem;
   border: none;
 }
+.easter-egg {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #212529;
+}
+
 footer {
   height: 10vh;
   display: flex;

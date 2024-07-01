@@ -7,7 +7,22 @@
 
 body {
   font-family: "Roboto";
-  /* background: linear-gradient(#fff, #495057); */
+
+  background-image: linear-gradient(
+    45deg,
+    hsl(1deg 100% 68%) 0%,
+    hsl(13deg 100% 66%) 10%,
+    hsl(23deg 100% 64%) 20%,
+    hsl(32deg 100% 62%) 30%,
+    hsl(40deg 100% 61%) 40%,
+    hsl(47deg 100% 62%) 50%,
+    hsl(57deg 73% 52%) 60%,
+    hsl(69deg 67% 49%) 70%,
+    hsl(83deg 64% 50%) 80%,
+    hsl(104deg 60% 52%) 90%,
+    hsl(143deg 100% 40%) 100%
+  );
+  height: 100vh;
 }
 
 html {
